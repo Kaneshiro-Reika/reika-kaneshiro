@@ -75,6 +75,8 @@ function btnClick() {
   }
   return secondDiv.innerText = strGators;
   //toString()テキストに変換 Number( str )数値に変換OK
+  // return "🐊"
 }
 
 btnElement.addEventListener("click", btnClick);
+test(btnClick(), "");//0の時　OK  

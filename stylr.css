@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background: rgb(205, 162, 233);
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+#top img {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+#about {
+    background: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#messege {
+    background: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#photo {
+    background: rgb(205, 162, 233);
+    text-align: center;
+    padding: 100px;
+}
+
+#photo h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#photo img {
+    width: 750px;
+}
+
+aside {
+    background: white;
+    text-align: center;
+    padding: 100px;
+}
+
+aside h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+aside div {
+    background: rgb(205, 162, 233);
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#second-div {
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    width: 460px;
+    /* 20匹横に並ぶ幅 */
+}
+
+aside h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+aside h3 {
+    padding: 30px;
+}
+
+
+aside img {
+    width: 400px;
+}
+
+footer {
+    background: purple;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.moji {
+    display: flex;
+    background: white;
+}
+
+
+/* テキストから参照できるように出来ないか */
+/* #text-id{
+    width: 535px;
+    text-align: center;
+    margin-bottom: 10px;
+} */

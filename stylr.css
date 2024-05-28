@@ -48,7 +48,9 @@ header {
 }
 
 #photo img {
-    width: 750px;
+    width: 40%;
+    margin: auto;
+    display: block;
 }
 
 aside {
@@ -88,10 +90,6 @@ aside h3 {
 }
 
 
-aside img {
-    width: 400px;
-}
-
 footer {
     background: purple;
     text-align: center;
@@ -101,14 +99,48 @@ footer {
 }
 
 .moji {
-    display: flex;
     background: white;
 }
 
+#num{
+    font-size: 50px;
+    color: rgb(205, 162, 233)
+}
 
-/* テキストから参照できるように出来ないか */
-/* #text-id{
-    width: 535px;
+body{
     text-align: center;
-    margin-bottom: 10px;
-} */
+}
+
+#btn{
+        color: purple;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: double 4px purple;
+        text-align: center;
+        overflow: hidden;
+}
+
+#pushbtn{
+    /* text-decoration: underline;　文字の下線 */
+    color: purple;
+    border: double 4px purple; 
+    /* 外枠の線 */
+    border-radius: 3px;
+    /* 角を削る量丸み */
+    width: 60px;
+    height: 30px;
+  }
+
+#text-id{
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    border: solid 4px purple;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+section h1{
+    color: purple;
+}

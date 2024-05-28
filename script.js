@@ -12,13 +12,27 @@ function test(actual, expected) {
 }
 
 
-let array = ["🐊受付🐊", "🐊会場案内🐊", "🐊駐車場案内🐊", "🐊会計🐊"];
+// let array = ["🐊受付🐊", "🐊会場案内🐊", "🐊駐車場案内🐊", "🐊会計🐊"];
 // const textId = document.getElementById("text-id");
-// let array = [textId.value];参照が出来なかった
+// ↑　textIdのvalueが変わってくれなかったため、直接コードに入れた
+const array = [];
+pushbtn.addEventListener("click", function (){
+  return array.push(document.getElementById("text-id").value)
+});
+
+//array.push()
+//もう一つbtnを押す→テキスト　出来かも
+
 function arrayLotter() {
   disp.innerText = array[Math.floor(Math.random() * array.length)];
 }
 btn.addEventListener("click", arrayLotter);
+
+// クリック時に行ってほしいこと
+// テキストラベルにユーザーが入力する//textIdが入力した内容に変える
+// テキストラベルの内容を配列に入れる//array = textId
+// 　↓
+// 配列に入った内容をランダムで出す
 
 //課題：ラン数のテストの仕方を学ぶこと！
 //array[Math.floor(Math.random()*array.length)]
